@@ -1,0 +1,283 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+}
+
+Body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+#pagewrapper {
+	width: 80%;
+	margin: 5px auto;
+}
+
+
+	
+
+/* travel tips */
+
+#traveltips {
+	margin: 5px;
+	padding: 10px;
+}
+
+#traveltips p {
+	margin: 5px;
+	padding: 10px;
+}
+
+/* Two column layout */
+
+#rightcol {
+	width: 70%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+#leftcol {
+	width: 25%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+#content p {
+	padding: 10px;
+	margin: 5px;
+}
+
+/* Primary navigation menu */
+
+#primarynav {
+	background-color: darkorange;
+	text-align: center;
+
+}
+
+#primarynav li {
+	list-style: none;
+	display: inline-block;
+}
+
+#primarynav a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	display: inline-block;
+	border-right: 1px solid white;
+	text-align: center;
+	min-width: 125px;
+	letter-spacing: 0.0625rem;
+}
+
+#primarynav li:first-child a {
+	border-left: 1px solid white;
+}
+
+#primarynav a:hover, #secondary a:hover {
+	color: black;
+}
+
+#primarynav .current {
+	background-color: #FF9828;
+}
+
+/* Secondary nav menu */
+
+#secondarynav ul {
+	margin-top: 10px;
+	padding: 10px 0px;
+}
+
+#secondarynav li {
+	list-style: none;
+	width: 70%;
+	border-bottom: 1.5px solid black;
+	padding: 3px;
+}
+
+#secondarynav li:first-child {
+	border-top: 1.5px solid black;
+}
+
+#secondarynav a {
+	color: #6C3800;
+	text-decoration: none;
+	display: block;
+	padding: 4px;
+}
+
+#secondarynav a:hover {
+	color: #C46600
+}
+
+/* footer */
+
+#footerlinks {
+	clear: left;
+	border-top: 1px solid black;
+	text-align: right;
+	margin: 10px;
+}
+
+#footerlinks ul {
+	margin: 5px auto;
+
+}
+
+#footerlinks li {
+	display: inline-block;
+	list-style: none;
+	font-size: smaller;
+	border-right: 1px solid gray;
+	
+}
+
+#footerlinks a {
+	text-decoration: none;
+	color: black;
+	letter-spacing: 0.0625rem;
+	padding: 3px;
+}
+
+#footerlinks li:first-child {
+	border-left: 1px solid gray;
+}
+
+#footerlinks a:hover {
+	color: gray;
+}
+
+/* Headings and Paragraphs */
+
+p, address {
+	line-height: 1.8;
+	padding: 5px;
+	max-width: 70%;
+	margin: 5px 0;
+}
+
+h1 {
+	margin: 2px;
+	font-size: 55px;
+	padding: 0 0 10px 5px;
+}
+
+h2 {
+	Font-size: 40px;
+	margin: 5px 0;
+	padding:10px;
+}
+
+h3 {
+	font-size: 25px;
+	margin: 5px 0;
+	padding: 10px;
+	color: #6C3800;
+}
+
+h4 {
+	font-size: 20px;
+	margin: 5px 0;
+}
+
+h1, h2, h4 {
+	color: #6C3800;
+	letter-spacing: 0.125rem;
+} 
+
+/* Introduction */
+
+.intro p {
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+
+/* Pictures */
+
+.frontpage {
+	border-radius: 10%;
+	max-width: 100%;
+	width: 24.2%;
+	margin-left: 5px;
+	}
+	
+/* Reviews */
+
+.reviews {
+	width: 45%;
+	border: 1px solid black;
+	float: left;
+	background-color:#F8E3CD;
+	max-width: 600px;
+	padding: 20px;
+	margin: 5px;
+}
+
+.reviews img {
+	float: left;
+	padding: 5px;
+	width: 25%;
+	border-radius: 100%;
+}
+	
+/* Places to visit */
+
+.visit p {
+	margin: 5px;
+	margin-left: 10px;
+	padding: 10px;
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.gallery {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 5px;
+}
+
+.places {
+	width: 250px;
+	margin: 5px 2px;
+	background-color:#F8E3CD;
+	padding: 5px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.places img {
+	display: block;
+	margin: 10px;
+	width: 88%;
+	border-radius:20px;
+	
+}
+
+.places h3 {
+	text-align: center;
+	color: #6C3800;
+}
+
+.places p {
+	max-width: 100%;
+	margin: 3px;
+}
+
+/* transports */ 
+
+.transport {
+	width: 20px;
+	margin-right: 5px;
+}
+
+/* Span */
+
+.bold {
+	font-weight: bold;
+}
